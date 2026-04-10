@@ -1,2 +1,9 @@
+meta:
+  version: 1.0
+  environment: docker
+
+build:
+  dockerfile: Dockerfile
+
 run:
   containerPort: 8094
