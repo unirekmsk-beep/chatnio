@@ -9,6 +9,5 @@ build:
   skip: false
 
 run:
-  persistenceMount: /data
+  persistenceMount: /storage
   containerPort: 8094
-  args: --port 8094
